@@ -1,0 +1,478 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ebf7fe; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; OVERFLOW: auto; SCROLLBAR-SHADOW-COLOR: #2178a3; COLOR: #000001; SCROLLBAR-3DLIGHT-COLOR: #2178a3; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #d3d3d3; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #d3d3d3; SCROLLBAR-BASE-COLOR: #ffffff; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+BODY.bdMsgPage {
+	SCROLLBAR-FACE-COLOR: #ebf7fe; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; OVERFLOW: auto; SCROLLBAR-SHADOW-COLOR: #2178a3; COLOR: #000001; SCROLLBAR-3DLIGHT-COLOR: #2178a3; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #d3d3d3; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #d3d3d3; SCROLLB{
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ff3300; LETTER-SPACING: 4pt
+}
+BODY.bdExplain {
+	FONT-SIZE: 12px; COLOR: #1d6402; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fbfffa; TEXT-ALIGN: center
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TABLE.tbMain {
+	WIDTH: 98%; align: center
+}
+TABLE.tbTitle {
+	WIDTH: 100%
+}
+TABLE.tbBlock {
+	WIDTH: 100%; BACKGROUND-COLOR: #9fd6ff
+}
+TABLE.tbPanel {
+	WIDTH: 100%; HEIGHT: 24px
+}
+TABLE.tbPanelContent {
+	HEIGHT: 24px
+}
+TABLE.tbAgreement {
+	WIDTH: 100%; BACKGROUND-COLOR: #9fd6ff
+}
+TABLE.tbExplain {
+	WIDTH: 100%; BACKGROUND-COLOR: #97e490
+}
+TABLE.tbMsgPage {
+	WIDTH: 500px; HEIGHT: 200px; BACKGROUND-COLOR: #9fd6ff
+}
+TABLE.tbCommon {
+	WIDTH: 100%
+}
+TABLE.tbCommonColor {
+	WIDTH: 100%; BACKGROUND-COLOR: #f2f9ff
+}
+TD.tdCommonTop {
+	VERTICAL-ALIGN: top; align: left
+}
+TD.tdCommonMid {
+	VERTICAL-ALIGN: middle; align: left
+}
+TD.tdCommonBtm {
+	VERTICAL-ALIGN: bottom; align: left
+}
+TD.tdCommonTopColor {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #f2f9ff; align: left
+}
+TD.tdCommonMidColor {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #f2f9ff; align: left
+}
+TD.tdCommonBtmColor {
+	VERTICAL-ALIGN: bottom; BACKGROUND-COLOR: #f2f9ff; align: left
+}
+TD.tdTitle1 {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(../images/title_01.gif); WIDTH: 50%; COLOR: #000001; BACKGROUND-REPEAT: repeat; HEIGHT: 26px; TEXT-ALIGN: left
+}
+TD.tdTitle2 {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(../images/title_02.gif); BACKGROUND-REPEAT: repeat; HEIGHT: 26px
+}
+TD.tdTitle3 {
+	BACKGROUND-POSITION: right center; BACKGROUND-IMAGE: url(../images/title_03.gif); WIDTH: 40%; COLOR: #c60001; BACKGROUND-REPEAT: repeat; HEIGHT: 26px; TEXT-ALIGN: right
+}
+TD.tdLeftH20 {
+	HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftH30 {
+	HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftH40 {
+	HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdCenterH20 {
+	HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterH30 {
+	HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterH40 {
+	HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdRightH20 {
+	HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightH30 {
+	HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightH40 {
+	HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdLeftW15H20 {
+	WIDTH: 15%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW15H30 {
+	WIDTH: 15%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW15H40 {
+	WIDTH: 15%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW20H20 {
+	WIDTH: 20%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW20H30 {
+	WIDTH: 20%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW25H30 {
+	WIDTH: 25%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW20H40 {
+	WIDTH: 20%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW30H20 {
+	WIDTH: 30%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW30H30 {
+	WIDTH: 30%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW30H40 {
+	WIDTH: 30%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW50H20 {
+	WIDTH: 50%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW50H30 {
+	WIDTH: 50%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdLeftW50H40 {
+	WIDTH: 50%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: left
+}
+TD.tdCenterW15H20 {
+	WIDTH: 15%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW15H30 {
+	WIDTH: 15%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW15H40 {
+	WIDTH: 15%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW20H20 {
+	WIDTH: 20%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW20H30 {
+	WIDTH: 20%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW20H40 {
+	WIDTH: 20%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW30H20 {
+	WIDTH: 30%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW30H30 {
+	WIDTH: 30%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW30H40 {
+	WIDTH: 30%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW50H20 {
+	WIDTH: 50%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW50H30 {
+	WIDTH: 50%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdCenterW50H40 {
+	WIDTH: 50%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: center
+}
+TD.tdRightW15H20 {
+	WIDTH: 15%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW15H30 {
+	WIDTH: 15%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW15H40 {
+	WIDTH: 15%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW20H20 {
+	WIDTH: 20%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW20H30 {
+	WIDTH: 20%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW20H40 {
+	WIDTH: 20%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW30H20 {
+	WIDTH: 30%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW30H30 {
+	WIDTH: 30%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW30H40 {
+	WIDTH: 30%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW50H20 {
+	WIDTH: 50%; HEIGHT: 20px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW50H30 {
+	WIDTH: 50%; HEIGHT: 30px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdRightW50H40 {
+	WIDTH: 50%; HEIGHT: 40px; BACKGROUND-COLOR: #f2f9ff; TEXT-ALIGN: right
+}
+TD.tdPanelContent {
+	HEIGHT: 28px; align: left
+}
+TD.tdPanelHead {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(../images/panel_005.gif); BACKGROUND-REPEAT: repeat
+}
+TD.tdPanelSpace {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(../images/panel_005.gif); WIDTH: 50px; BACKGROUND-REPEAT: repeat; HEIGHT: 24px
+}
+TD.tdPanelSpaceW20 {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(../images/panel_005.gif); WIDTH: 20px; BACKGROUND-REPEAT: repeat; HEIGHT: 24px
+}
+TD.tdPanelTrail {
+	BACKGROUND-POSITION: right center; BACKGROUND-IMAGE: url(../images/panel_005.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat; HEIGHT: 24px
+}
+TD.tdPanelSel {
+	BACKGROUND-IMAGE: url(../images/panel_001.gif); WIDTH: 100px; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdPanelNoSel {
+	BACKGROUND-IMAGE: url(../images/panel_002.gif); WIDTH: 100px; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelPanelSel {
+	BACKGROUND-IMAGE: url(../images/panel_003.gif); WIDTH: 100px; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelPanelNoSel {
+	BACKGROUND-IMAGE: url(../images/panel_004.gif); WIDTH: 100px; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelFuncTransQuery {
+	BACKGROUND-IMAGE: url(../images/panel_TransQuery.gif); WIDTH: 74px; CURSOR: hand; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelFuncPwdManager {
+	BACKGROUND-IMAGE: url(../images/panel_PwdManager.gif); WIDTH: 74px; CURSOR: hand; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelFuncReportLoss {
+	BACKGROUND-IMAGE: url(../images/panel_ReportLoss.gif); WIDTH: 74px; CURSOR: hand; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelFuncApplyMainCard {
+	BACKGROUND-IMAGE: url(../images/panel_ApplyMainCard.gif); WIDTH: 84px; CURSOR: hand; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdRelFuncApplyAffiliatedCard {
+	BACKGROUND-IMAGE: url(../images/panel_ApplyAffiliatedCard.gif); WIDTH: 84px; CURSOR: hand; HEIGHT: 24px; TEXT-ALIGN: center; align: center
+}
+TD.tdSpace {
+	WIDTH: 100%; HEIGHT: 6px; BACKGROUND-COLOR: #ffffff
+}
+TD.tdSpaceH12 {
+	WIDTH: 100%; HEIGHT: 12px; BACKGROUND-COLOR: #ffffff
+}
+TD.tdSpaceColor {
+	WIDTH: 100%; HEIGHT: 6px; BACKGROUND-COLOR: #f2f9ff
+}
+TD.tdSpaceH12Color {
+	WIDTH: 100%; HEIGHT: 12px; BACKGROUND-COLOR: #f2f9ff
+}
+TD.tdPrompt {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(../images/bg_001.gif); WIDTH: 100%; COLOR: #000001; BACKGROUND-REPEAT: repeat; HEIGHT: 27px; TEXT-ALIGN: left
+}
+TD.tdExplain {
+	WIDTH: 100%; BACKGROUND-COLOR: #ffffff
+}
+TD.tdAgreement {
+	WIDTH: 100%; BACKGROUND-COLOR: #ffffff
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 22px
+}
+INPUT.button {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 22px
+}
+INPUT.input1 {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 22px
+}
+INPUT.input2 {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px
+}
+SELECT {
+	FONT-SIZE: 12px; WIDTH: 160px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px
+}
+OPTION {
+	
+}
+BUTTON {
+	CURSOR: hand
+}
+BUTTON.btn1 {
+	BORDER-RIGHT: #ff9702 1px solid; BORDER-TOP: white 1px solid; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: #ff9702 1px solid; BACKGROUND-COLOR: #efebef
+}
+TBODY {
+	
+}
+TEXTAREA {
+	
+}
+DIV {
+	
+}
+#loading {
+	VISIBILITY: hidden; WIDTH: 70px; COLOR: white; POSITION: absolute; HEIGHT: 20px; BACKGROUND-COLOR: #cc0000
+}
+#message {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; VISIBILITY: hidden; PADDING-BOTTOM: 2px; COLOR: red; PADDING-TOP: 2px; POSITION: absolute; BACKGROUND-COLOR: #ffff00
+}
+#console {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 3px; VERTICAL-ALIGN: bottom; OVERFLOW: auto; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 100%; BACKGROUND-COLOR: #ffffff
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+MENU.menustyle {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; BORDER-LEFT: gray 1px solid; BORDER-BOTTOM: gray 1px solid; BACKGROUND-COLOR: white
+}
+MENU.menuitem {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: white 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: white 1px solid; CURSOR: hand; PADDING-TOP: 2px; BORDER-BOTTOM: white 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: white
+}
+MENU.mouseover {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: gray 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: gray 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: gray 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: silver
+}
+.dgMain {
+	WIDTH: 100%; COLOR: #000001; BACKGROUND-COLOR: white
+}
+.dgHeader {
+	COLOR: #000001; BACKGROUND-COLOR: #f2f9ff
+}
+.dgFooter {
+	COLOR: #000001; BACKGROUND-COLOR: #f2f9ff
+}
+.dgAlternatingItem {
+	COLOR: #000001; BACKGROUND-COLOR: #f2f9ff
+}
+IFRAME.ifExplain {
+	WIDTH: 100%; HEIGHT: 100%
+}
+A.lkPanelSel:link {
+	FONT-WEIGHT: bold; COLOR: #3e3e3e
+}
+A.lkPanelSel:visited {
+	FONT-WEIGHT: bold; COLOR: #3e3e3e
+}
+A.lkPanelSel:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.lkPanelSel:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.lkPanelNoSel:link {
+	COLOR: #3e3e3e; TEXT-DECORATION: none
+}
+A.lkPanelNoSel:visited {
+	COLOR: #3e3e3e; TEXT-DECORATION: none
+}
+A.lkPanelNoSel:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.lkPanelNoSel:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.wcLabel {
+	COLOR: #585858
+}
+INPUT {
+	BEHAVIOR: url(../doc/Scripts/button.htc)
+}
+.btn {
+	BORDER-RIGHT: #8496ce 0px solid; BORDER-TOP: #8496ce 0px solid; BACKGROUND-IMAGE: url(../images/bg_btn2.gif); BORDER-LEFT: #8496ce 0px solid; WIDTH: 56px; CURSOR: hand; COLOR: #5a6da5; BORDER-BOTTOM: #8496ce 0px solid; HEIGHT: 21px; BACKGROUND-COLOR: aliceblue
+}
+.btnOver {
+	BORDER-RIGHT: #8496ce 0px solid; BORDER-TOP: #8496ce 0px solid; BACKGROUND-IMAGE: url(../images/bg_btn1.gif); BORDER-LEFT: #8496ce 0px solid; WIDTH: 56px; CURSOR: hand; COLOR: #203e94; BORDER-BOTTOM: #8496ce 0px solid; HEIGHT: 21px; BACKGROUND-COLOR: #b49b83
+}
+TD.tdMsgPageLeft {
+	BACKGROUND-POSITION: center top; WIDTH: 20%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #daeafb
+}
+TD.tdMsgPageCenter {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #daeafb; align: center
+}
+TD.tdMsgPageRight {
+	WIDTH: 10%; BACKGROUND-COLOR: #daeafb
+}
+TD.tdMsgPageCenter1 {
+	HEIGHT: 50px; BACKGROUND-COLOR: #daeafb; TEXT-ALIGN: center
+}
+TD.tdMsgPageCenter2 {
+	VERTICAL-ALIGN: text-top; HEIGHT: 100px; BACKGROUND-COLOR: #daeafb; TEXT-ALIGN: left
+}
+TD.tdMsgPageCenter3 {
+	HEIGHT: 50px; BACKGROUND-COLOR: #daeafb; TEXT-ALIGN: center; align: center
+}
+.btNormal {
+	BORDER-RIGHT: #f6f6f6 1px solid; BORDER-TOP: #f6f6f6 1px solid; BORDER-LEFT: #f6f6f6 1px solid; CURSOR: hand; BORDER-BOTTOM: #f6f6f6 1px solid
+}
+.btOver {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 1px solid; CURSOR: hand; BORDER-BOTTOM: #333333 1px solid
+}
+.btDown {
+	BORDER-RIGHT: #eeeeee 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; CURSOR: hand; BORDER-BOTTOM: #eeeeee 1px solid
+}
+.info {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 0px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; MARGIN-LEFT: 20px; WIDTH: 750px; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+TABLE.frmTable {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #000000 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.frmTable TD {
+	BORDER-RIGHT: #72b2d5 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #72b2d5 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #72b2d5 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #72b2d5 1px solid
+}
+TABLE.frmTable TD.header {
+	BACKGROUND-COLOR: #8bc3e4; TEXT-ALIGN: center
+}
+TABLE.frmTable TD.number {
+	TEXT-ALIGN: right
+}
+TABLE.searchBox {
+	BORDER-RIGHT: #cccccc 0px solid; BORDER-TOP: #cccccc 0px solid; BORDER-LEFT: #cccccc 0px solid; WIDTH: 100%; BORDER-BOTTOM: #cccccc 0px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.searchBox TD {
+	BORDER-RIGHT: #cccccc 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccccc 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 0px solid
+}
+TABLE.searchBox TD.toolbar {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; COLOR: #ffffff; PADDING-TOP: 8px; BACKGROUND-COLOR: #5ebfdf; TEXT-ALIGN: left
+}
+TABLE.searchBox #divPaging {
+	WIDTH: 100%; TEXT-ALIGN: right
+}
+TABLE.searchBox .disableLink {
+	CURSOR: default; COLOR: #999999; TEXT-DECORATION: underline
+}
+TABLE.searchTable {
+	BORDER-RIGHT: #72b2d5 1px solid; BORDER-TOP: #72b2d5 1px solid; BORDER-LEFT: #72b2d5 1px solid; WIDTH: 100%; BORDER-BOTTOM: #72b2d5 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.searchTable TD {
+	BORDER-RIGHT: #72b2d5 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #72b2d5 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #72b2d5 1px solid; COLOR: #004c70; PADDING-TOP: 3px; BORDER-BOTTOM: #72b2d5 1px solid; HEIGHT: 30px
+}
+TABLE.searchTable TD.header {
+	COLOR: #004c70; HEIGHT: 30px; BACKGROUND-COLOR: #8bc3e4; TEXT-ALIGN: center
+}
+TABLE.searchTable TD.headerText {
+	
+}
+.green {
+	COLOR: green
+}
+.red {
+	COLOR: red
+}
+.blue {
+	COLOR: blue
+}
+.buttonLink {
+	CURSOR: pointer; COLOR: blue; TEXT-DECORATION: underline
+}
+.btnOrder {
+	PADDING-RIGHT: 10px; BACKGROUND: url(../images/btnOrder.gif) no-repeat right center; CURSOR: pointer; TEXT-DECORATION: underline
+}
+.btnOrderDesc {
+	PADDING-RIGHT: 10px; BACKGROUND: url(../images/btnOrderDesc.gif) no-repeat right center; CURSOR: pointer; TEXT-DECORATION: underline
+}
+.btnOrderNothing {
+	PADDING-RIGHT: 10px; CURSOR: pointer; TEXT-DECORATION: underline
+}

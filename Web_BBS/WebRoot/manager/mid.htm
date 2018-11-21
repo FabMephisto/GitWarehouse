@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE type=text/css>BODY {
+	MARGIN: 0px
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR><title>移动手机支付管理平台</title></HEAD>
+<BODY bgColor=#dee6f9 background=images/mid_bg.gif>
+<DIV id=showmenu 
+style="LEFT: 0px; WIDTH: 10px; POSITION: absolute; TOP: 0px; HEIGHT: 31px"><IMG 
+id=menu onmouseover="this.style.cursor='hand'" onclick=hidFrame() alt=隐藏菜单 
+src="images/scroll_left.gif" name=img1></DIV>
+<DIV id=scrollbar 
+style="LEFT: 0px; WIDTH: 10px; POSITION: absolute; TOP: 32px; HEIGHT: 31px"><IMG 
+id=bar style="CURSOR: hand" height=31 alt=移动菜单 
+src="images/scroll_mid.gif"></DIV>
+<SCRIPT language=javascript>
+//显示/隐藏左边帧( 默认情况下为显示左边帧 2003.4 )
+var currentChoice = true;
+arrow1=new Image;
+arrow2=new Image;
+arrow1.src="images/scroll_left.gif";
+arrow2.src="images/scroll_right.gif";
+function hidFrame(){
+	if(currentChoice){
+		parent.setyou.cols="0,10,*";
+		document.img1.src=arrow2.src;
+		document.img1.alt="显示菜单";
+	} else {
+		parent.setyou.cols="165,10,*";
+		document.img1.src=arrow1.src;
+		document.img1.alt="隐藏菜单";
+	}
+	currentChoice = !currentChoice;
+}
+
+function hidFrame2(){
+	parent.bottomFrame.cols="0,10,*";
+	document.img1.src=arrow2.src;
+	document.img1.alt="显示菜单";
+	currentChoice = false;
+}
+
+function showFrame2(){
+	parent.bottomFrame.cols="140,10,*";
+	document.img1.src=arrow1.src;
+	document.img1.alt="隐藏菜单";
+	currentChoice = true;
+}
+</SCRIPT>
+
+<SCRIPT>
+var top=32;//滚动滑块的开始位置
+var frameHeight=document.body.offsetHeight;//滚动滑块可滑动距离
+var barH=31;//滚动滑块高度
+var currentY = 32;//滚动滑块当前位置
+var contentFrame = parent.leftFrame;//被滚动的框架
+var curObj = null;
+
+function dropIt() {
+curObj = null;
+}
+
+function scrollByStep(step) {
+	contentFrame.scrollBy(0,step);
+	scrollbar.style.pixelTop = (contentFrame.document.body.scrollTop)/(contentFrame.document.body.scrollHeight-contentFrame.document.body.clientHeight)*(frameHeight-top-barH)+top;
+	if(scrollbar.style.pixelTop < top ) scrollbar.style.pixelTop=top;
+	if(scrollbar.style.pixelTop > frameHeight-barH) scrollbar.style.pixelTop = frameHeight-barH;
+}
+
+function CatchIt() {
+	curObj = event.srcElement;
+	if (curObj.id!="bar") {
+		if (curObj.id!="menu"){
+			scrollbar.style.pixelTop=window.event.clientY;
+			scrollIt();
+		}
+		curObj=null;
+		return;
+	}
+	if (curObj == null) { return;}
+	scrollbar.style.pixelTop = scrollbar.offsetTop;
+	currentX = (event.clientX + document.body.scrollLeft);
+	currentY = (event.clientY + document.body.scrollTop);
+}
+
+function moveIt() {
+	if (curObj == null) { return;}
+	if (curObj.id != "bar") { return;}
+	if (event.button!=1) {dropIt();return;}
+	newY = (event.clientY + document.body.scrollTop);
+	distanceY = (newY - currentY);
+	currentY = newY;
+	scrollbar.style.pixelTop += distanceY;
+	if(scrollbar.style.pixelTop < top) scrollbar.style.pixelTop = top;
+	scrollIt();
+	event.returnValue = false;
+}
+function scrollIt(){
+	if(scrollbar.style.pixelTop < top ) scrollbar.style.pixelTop=top;
+	if(scrollbar.style.pixelTop > frameHeight-barH) scrollbar.style.pixelTop = frameHeight-barH;
+	try{
+		sfTop=((scrollbar.style.pixelTop-top)/(frameHeight-barH-top))*(contentFrame.document.body.scrollHeight-contentFrame.document.body.clientHeight);
+		contentFrame.scrollTo(0,sfTop);//滚动实现
+	} catch (e){sfTop=0;}
+}
+document.onmousedown = CatchIt;
+document.onmousemove = moveIt;
+document.onmouseup = dropIt;
+/*
+	注意：
+	滚动滑块的id为“bar”；并且放在id为“scrollbar”的层里。
+*/
+</SCRIPT>
+</SCRIPT></BODY></HTML>

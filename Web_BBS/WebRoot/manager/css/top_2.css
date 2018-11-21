@@ -1,0 +1,126 @@
+TD {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #c8dafa; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #9ebdf6; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #9ebdf6; SCROLLBAR-ARROW-COLOR: #a7c4f7; SCROLLBAR-TRACK-COLOR: #f5f5f5; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.np {
+	FONT-SIZE: 18px; BACKGROUND-IMAGE: url(../images/menu_bg_02.gif); CURSOR: hand; COLOR: #365aa8; FONT-FAMILY: "Webdings"
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+INPUT {
+	FONT-SIZE: 9pt; HEIGHT: 15pt
+}
+A {
+	FONT-SIZE: 9pt; COLOR: #0000cc; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.font10 {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+.fontb {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+.label {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+.beijing1 {
+	BACKGROUND-IMAGE: url(../images/tuopian08.gif)
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+.btn {
+	FONT-SIZE: 12px; CURSOR: hand; FONT-FAMILY: "宋体"
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+FILE {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+.bg {
+	BACKGROUND-POSITION: center top; BACKGROUND-REPEAT: no-repeat
+}
+.noline {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.f3 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 12pt; TEXT-DECORATION: none
+}
+.outertable1 {
+	BACKGROUND-COLOR: #efefef
+}
+.outertable2 {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.outertable3 {
+	BACKGROUND-COLOR: #fcfcfc
+}
+.maintable {
+	LINE-HEIGHT: 25px; BACKGROUND-COLOR: #efefef
+}
+.maintablelight {
+	LINE-HEIGHT: 25px; BACKGROUND-COLOR: #efefef
+}
+.titletd {
+	FONT-SIZE: 9pt; COLOR: #ffffff; BACKGROUND-COLOR: #38669e; TEXT-DECORATION: none
+}
+.chaxuntd {
+	FONT-SIZE: 9pt; COLOR: #ffffff; BACKGROUND-COLOR: #38669e; TEXT-DECORATION: none
+}
+.bei_jing_1 {
+	BACKGROUND-IMAGE: url(../images/zhu_beijing_2.gif); HEIGHT: 13px
+}
+.bei_jing_2 {
+	BACKGROUND-IMAGE: url(../images/zhu_beijing_3.gif); HEIGHT: 272px
+}
+.bei_jing_3 {
+	FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(../images/zhu_beijing_4.gif); COLOR: #000000; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.bei_jing_4 {
+	BACKGROUND-IMAGE: url(../images/bg_logo.gif); WIDTH: 441px; HEIGHT: 272px
+}
+.bei_jing_5 {
+	BACKGROUND-IMAGE: url(../images/misc_logo_2.gif); WIDTH: 659px; HEIGHT: 36px
+}
+.bei_jing_6 {
+	BACKGROUND-IMAGE: url(../images/new/btbg.gif); HEIGHT: 22px
+}
+.bei_jing_10 {
+	BACKGROUND-IMAGE: url(../images/bei_jing_3.gif); WIDTH: 459px; HEIGHT: 287px
+}
+.bei_jing_11 {
+	BACKGROUND-IMAGE: url(../images/bei_jing_4.gif); WIDTH: 405px; HEIGHT: 156px
+}
+.off-white {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.two_hang_2 {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: normal; BACKGROUND-COLOR: #ebecea; TEXT-DECORATION: none
+}
+.bei_jing_7 {
+	BACKGROUND-IMAGE: url(../images/bei_jing_7.gif); HEIGHT: 36px
+}
+.dao_hang {
+	BACKGROUND-IMAGE: url(../images/new/lourong_02.gif); HEIGHT: 23px
+}
+.hui_she {
+	BACKGROUND-COLOR: #f1f1f1
+}
